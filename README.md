@@ -4,6 +4,16 @@ Skill do [Claude Code](https://code.claude.com/docs/en/skills) que gera um paine
 
 Este repositório contém só a skill que cria o painel. Nenhuma das skills listadas vai junto: o gerador apenas lê os `SKILL.md` da sua máquina.
 
+## Como fica
+
+Capturas do painel com 63 skills curadas (resumos em português, prévias e catálogos), que usam as opções `--overrides` e `--previews`.
+
+![Visão geral e cartão aberto](docs/02-cartao-aberto.jpg)
+
+![Galeria de prévias](docs/03-galeria.jpg)
+
+![Catálogo completo de paletas](docs/04-catalogo-paletas.jpg)
+
 ## Instalação
 
 ```bash
@@ -24,7 +34,8 @@ Opções (categorias, resumos em português, galeria de prévias e catálogos): 
 ## Limites
 
 - Sem ajustes, as descrições e os exemplos vêm do próprio arquivo de cada skill e podem estar em inglês. As categorias são deduzidas por palavras-chave; use `--overrides` para corrigir.
-- Ainda não há capturas de tela neste repositório.
+- Sem `--overrides` e `--previews`, o painel é mais simples que nas capturas: sem galeria, sem catálogos e com textos tirados do arquivo de cada skill.
+- As capturas mostram nomes e descrições de skills de terceiros apenas como imagem; nenhuma skill é distribuída aqui.
 
 ## Licença
 
