@@ -1,0 +1,7 @@
+{
+  "exemplo-de-skill": {
+    "cat": "Visual",
+    "desc": "Resumo em português do que a skill faz.",
+    "ex": "Frase de exemplo para pedir ao Claude"
+  }
+}
